@@ -5,6 +5,7 @@ body {
     background-color: #fff8dc;
     color: #5c3d1a;
     padding: 2rem;
+    transition: background-color 1s, color 1s;
 }
 
 .faq {
@@ -34,4 +35,14 @@ button {
 
 button:hover {
     background-color: #e5c9a8;
+}
+
+body.makeover {
+    background-color:purple;
+    color:white;
+    font-family: 'Times New Roman', Times;
+}
+
+body.toggleSize {
+    font-size: larger;
 }
