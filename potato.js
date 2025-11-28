@@ -10,7 +10,7 @@ function toggleSize() {
     document.body.classList.toggle("toggleSize")
 }
 
-function facts() {
-    console.log("Afact!")
-    document.getElementsByID("faq").innerHTML = "In 1995 the potato became the first vegetable to grow in space"
+function toggleDisplay() {
+    console.log("facts revealed")
+    document.getElementById("faq-answer").classList.toggle("hidden")
 }
